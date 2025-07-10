@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background: #F5F8FF;
+}
+
 ul,
 ol {
   list-style: none;
@@ -53,14 +57,47 @@ span {
     background-color: #6b66fb;
     color: #FFFFFF;
 }
+
+.text-center{
+    text-align: center;
+}
+
+.text-primary{
+    color: #4E47FF;
+}
+
+.text-secondary{
+    color: #252432;
+}
+
+.text-black{
+    color: #000000;
+}
+
+.bg-primary{
+    background-color: #4E47FF;
+}
+
+.bg-secondary{
+    background-color: #252432;
+}
+
+
 /* Common CSS End Here */
 
 /* Header CSS Start Here */
+.header-section{
+    background-image: url('/assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .navbar-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 .navbar-section .logo{
@@ -69,6 +106,18 @@ span {
     font-weight: 800;
     color: #4E47FF;
     text-transform: uppercase;
+}
+
+.banner-section{
+    padding: 155px 0;
+}
+
+.banner-section .banner-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 37px;
+    padding: 0 56px;
 }
 /* Header CSS End Here */
 
