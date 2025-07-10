@@ -70,17 +70,6 @@ span {
     color: #252432;
 }
 
-.text-black{
-    color: #000000;
-}
-
-.bg-primary{
-    background-color: #4E47FF;
-}
-
-.bg-secondary{
-    background-color: #252432;
-}
 
 main section{
     margin: 115px 0;
@@ -304,10 +293,13 @@ main section{
 .get-in-touch-section .get-in-touch-form .labels{
     display: block;
     padding-bottom: 5px;
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    font-size: 18px;
 }
 
 .get-in-touch-section .get-in-touch-form .inputall{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .get-in-touch-section .get-in-touch-form input[type="text"],input[type="email"],textarea{
@@ -327,6 +319,45 @@ main section{
 }
 /* Let’s Get In Touch CSS End Here */
 
-/* Common CSS Start Here */
+/* Footer CSS Start Here */
+.footer-section{
+    background: #fff;
+    padding: 105px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+}
 
-/* Common CSS End Here */
+.footer-section .footer-main .footer-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-section .footer-main .footer-description{
+    font-family: "Inter", sans-serif;
+    color: #8987A1;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 40px;
+    padding: 0 330px;
+}
+
+.footer-section .footer-main ul{
+    display: flex;
+    justify-content: center;
+    gap: 48px
+}
+
+.footer-section .footer-main ul li a{
+    font-family: "Inter", sans-serif;
+    color: #8987A1;
+    font-weight: 400;
+    font-size: 16px;
+    transition: all linear 0.3s;
+}
+
+.footer-section .footer-main ul li a:hover{
+    color: #4E47FF;
+}
+/* Footer CSS End Here */
