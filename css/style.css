@@ -42,7 +42,7 @@ span {
 .my-btn{
     background-color: #4E47FF;
     color: #fff;
-    padding: 12px 36px;
+    padding: 16px 36px;
     border-radius: 10px;
     font-size: 16px;
     font-weight: 700;
@@ -279,6 +279,53 @@ main section{
     margin-top: 32px;
 }
 /* Focus CSS End Here */
+
+/* Let’s Get In Touch CSS Start Here */
+.get-in-touch-section .get-in-touch-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-in-touch-section .get-main{
+    min-width: 60%;
+}
+
+.get-in-touch-section .get-in-touch-form{
+    min-width: 40%;
+}
+
+.get-in-touch-section .get-in-touch-main .get-in-touch-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 97px;
+} 
+
+.get-in-touch-section .get-in-touch-form .labels{
+    display: block;
+    padding-bottom: 5px;
+}
+
+.get-in-touch-section .get-in-touch-form .inputall{
+    margin-bottom: 10px;
+}
+
+.get-in-touch-section .get-in-touch-form input[type="text"],input[type="email"],textarea{
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+    padding: 20px 32px;
+    width: 100%;
+    outline: none;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+}
+
+.get-in-touch-section .get-in-touch-form .submit{
+    width: 100%;
+}
+/* Let’s Get In Touch CSS End Here */
 
 /* Common CSS Start Here */
 
