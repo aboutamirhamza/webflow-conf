@@ -186,6 +186,71 @@ main section{
 }
 /* Productive Users CSS End Here */
 
+/* Testimonial CSS Start Here */
+.testimonial .testimonial-heading{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    padding-bottom: 50px;
+}
+
+.testimonial .testimonial-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.testimonial .testimonial-main .testimonial-items{
+    background: #fff;
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+    padding: 24px;
+}
+
+.testimonial .testimonial-main .testimonial-items .testimonial-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.testimonial .testimonial-main .testimonial-items .testimonial-description{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    padding-bottom: 24px;
+    font-weight: 400;
+}
+
+
+.testimonial .testimonial-main .testimonial-items .reviewer-main{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.testimonial .testimonial-main .testimonial-items .reviewer-main img{
+    border-radius: 50%;
+}
+
+.testimonial .testimonial-main .testimonial-items .star{
+    padding-bottom: 24px;
+}
+
+.testimonial .testimonial-main .testimonial-items .review .reviewer-name{
+    font-family: "Inter", sans-serif;
+    color: #757575;
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+
+.testimonial .testimonial-main .testimonial-items .review .date{
+    font-family: "Inter", sans-serif;
+    color: #B3B3B3;
+    font-size: 16px;
+}
+/* Testimonial CSS End Here */
+
 /* Common CSS Start Here */
 
 /* Common CSS End Here */
