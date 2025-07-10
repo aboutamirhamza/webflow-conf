@@ -82,6 +82,10 @@ span {
     background-color: #252432;
 }
 
+main section{
+    margin: 115px 0;
+}
+
 
 /* Common CSS End Here */
 
@@ -122,9 +126,6 @@ span {
 /* Header CSS End Here */
 
 /* Action CSS Start Here */
-.action-section{
-    padding: 115px 0;
-}
 
 .action-section .action-main{
     display: flex;
@@ -151,6 +152,39 @@ span {
     border-radius: 48px;
 }
 /* Action CSS End Here */
+
+/* Productive Users CSS Start Here */
+.productive-users-section .productive-users-main{
+    padding: 50px 80px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+}
+
+.productive-users-section .productive-users-main .productive-users-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    padding-bottom: 40px;
+}
+
+.productive-users-section .productive-users-main .productive-users{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.productive-users-section .productive-users-main .productive-users .productive-items .productive-users-item-title {
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.productive-users-section .productive-users-main .productive-users .productive-items .productive-users-item-description {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* Productive Users CSS End Here */
 
 /* Common CSS Start Here */
 
