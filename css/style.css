@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Common CSS Start Here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+li,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.my-btn{
+    background-color: #4E47FF;
+    color: #fff;
+    padding: 12px 36px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: all linear 0.3s;
+    transform: scale(1);
+}
+
+.my-btn:hover{
+    transform: scale(1.1);
+    background-color: #6b66fb;
+    color: #FFFFFF;
+}
+/* Common CSS End Here */
+
+/* Header CSS Start Here */
+.navbar-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navbar-section .logo{
+    font-family: "Inter", sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    color: #4E47FF;
+    text-transform: uppercase;
+}
+/* Header CSS End Here */
+
+/* Common CSS Start Here */
+
+/* Common CSS End Here */
