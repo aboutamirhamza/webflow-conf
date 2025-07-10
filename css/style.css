@@ -121,6 +121,37 @@ span {
 }
 /* Header CSS End Here */
 
+/* Action CSS Start Here */
+.action-section{
+    padding: 115px 0;
+}
+
+.action-section .action-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 265px;
+}
+
+.action-section .action-main .action-left .action-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    padding-bottom: 24px;
+}
+
+.action-section .action-main .action-left .action-description{
+    font-family: "Raleway", sans-serif;
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+
+.action-section .action-main .action-right img{
+    border-radius: 48px;
+}
+/* Action CSS End Here */
+
 /* Common CSS Start Here */
 
 /* Common CSS End Here */
