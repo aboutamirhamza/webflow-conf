@@ -251,6 +251,35 @@ main section{
 }
 /* Testimonial CSS End Here */
 
+/* Focus CSS Start Here */
+.focus-section .focus-main{
+    background: #FFF;
+    border-radius: 14px;
+    padding: 70px 150px
+}
+
+.focus-section .focus-main .focus-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: #000000;
+}
+
+.focus-section .focus-main .focus-description{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.focus-section .focus-main img{
+    border-radius: 48px;
+    margin-top: 32px;
+}
+/* Focus CSS End Here */
+
 /* Common CSS Start Here */
 
 /* Common CSS End Here */
